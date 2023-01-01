@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- COLOR -->
+    <!-- rgba(114,207,225,255) -->
+
+    <!-- BOOTSTRAP -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+
+    <!-- ICONS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Bootstrap demo</title>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img src="images/logo.png" alt="logo" class="nav-img"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Services
+              </a>
+              <ul class="dropdown-menu nav-item">
+                <li><a class="dropdown-item" href="#">Bathing</a></li>
+                <li><a class="dropdown-item" href="#">Checkup</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact us</a>
+            </li>
+          </ul>
+          <form class="d-flex mb-2" role="search">
+            <input
+              class="form-control me-2 search-bar"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-light search-btn" type="submit">
+              <i class="bi bi-search"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <!-- HERO SECTION -->
+
+      <div class="row justify-content-evenly pt-5 pb-5 hero-section">
+        <div class="col-lg-5 col-md-6 col-10 hero-content pb-5">
+          <h1 class="hero-heading pb-2">One and Only stop</h1>
+          <div class="content">
+            <p class="hero-para-1">The one and only stop for your dog.</p>
+            <p class="hero-para">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt
+              earum assumenda dolorum excepturi reprehenderit aliquid nihil
+              magnam accusamus ratione nobis?
+            </p>
+          </div>
+          <div>
+              <button type="button" class="btn btn-primary me-2">Contact us</button>
+              <button type="button" class="btn btn-outline-dark">
+                Our Services
+              </button>
+
+          </div>
+        </div>
+        <div class="col-lg-5 col-md-6 d-flex">
+          <img
+            src="images/main-img.jpg"
+            class="img-fluid d-none d-md-block"
+            alt="Dog image"
+          />
+        </div>
+      </div>
+
+      <!-- SERVICES -->
+
+      <div class="row service justify-content-evenly">
+        <div
+          class="col-lg-5 col-md-6 col-11 service-content pt-5 pb-5"
+        >
+          <h3 class="service-heading">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+            consequuntur odit possimus, numquam ea commodi iusto cum recusandae,
+            temporibus mollitia alias aut odio sed eligendi.
+          </p>
+          <div>
+            <button type="button" class="btn btn-primary services-btn">
+              Our Services
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-5 col-md-6 col-11 pb-3 service-img text-center ">
+          <img src="images/bbanner-1.png" class="img-fluid" />
+        </div>
+      </div>
+
+      <!-- COUNTER -->
+
+      <div class="row counter-section justify-content-evenly text-center">
+        <div class="col-md-3 counter-box counter-box-1">
+            <i class="bi bi-heart-pulse-fill counter-logo"></i>
+            <p class="counter-count">+34567</p>
+            <h3 class="counter-heading">Happy clients</h3>
+        </div>
+        <div class="col-md-3 counter-box">
+            <i class="bi bi-buildings-fill counter-logo"></i>
+            <p class="counter-count">+45689</p>
+            <h3 class="counter-heading">Department</h3>
+        </div>
+        <div class="col-md-3 counter-box counter-box-1">
+            <i class="bi bi-eyedropper counter-logo"></i>
+            <p class="counter-count">+65689</p>
+            <h3 class="counter-heading">Vaccinations</h3>
+        </div>
+      </div>
+
+      <!-- VISION SECTION -->
+      <div class="row vision-section justify-content-evenly">
+        <div class="col-10 vision-header">
+            <h2 class="vision-heading">Our vision</h2>
+        </div>
+        <div class="col-lg-7 col-md-6 col-10 vision-img">
+            <img src="images/img-1.jpg">
+        </div>
+        <div class="col-lg-5 col-md-6 col-10 vision-content">
+            <h3 class="vision-heading-1">WE ALSO LOVE</h3>
+            <h2 class="vision-heading-2">Dogs Very Much</h2>
+
+            <p class="vision-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem maxime tenetur adipisci accusantium optio, natus asperiores illo. Cum perferendis dolorum placeat voluptas.</p>
+        </div>
+      </div>
+
+      <!-- POST SECTION -->
+
+      <div class="row post-section justify-content-evenly">
+        <div class="col-12 col-lg-10 post-box">
+            <h3 class="post-content-heading">
+                Recent posts
+            </h3>
+            <p class="post-content-para">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea quisquam a accusantium ipsum, dignissimos aut.
+            </p>
+        </div>
+      </div>
+
+      <!-- CARD SECTION -->
+      
+      <div class="row card-section justify-content-evenly">
+        <div class="col-xl-3 col-lg-4">
+            <div class="card-box mb-4">
+                <div class="card-img">
+                    <img src="images/bbanner-2.png">
+                </div>
+                <div class="card-body">
+                    <h3 class="card-head">Some quick example text to build on the </h3>
+                    <p class="card-date">16 march 2000</p>
+                    <p class="card-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam accusantium accusamus in quam, veritatis reiciendis pariatur, ab eius, facilis dignissimos obcaecati laudantium? Eum, veritatis sunt.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-lg-4">
+            <div class="card-box mb-4">
+                <div class="card-img">
+                    <img src="images/bbanner-3.png">
+                </div>
+                <div class="card-body">
+                    <h3 class="card-head">Some quick example text to build on the </h3>
+                    <p class="card-date">16 march 2000</p>
+                    <p class="card-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam accusantium accusamus in quam, veritatis reiciendis pariatur, ab eius, facilis dignissimos obcaecati laudantium? Eum, veritatis sunt.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-lg-4">
+            <div class="card-box mb-4">
+                <div class="card-img">
+                    <img src="images/bbanner-5.png">
+                </div>
+                <div class="card-body">
+                  <h3 class="card-head">Some quick example text to build on the </h3>
+                  <p class="card-date">16 march 2000</p>
+                  <p class="card-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam accusantium accusamus in quam, veritatis reiciendis pariatur, ab eius, facilis dignissimos obcaecati laudantium? Eum, veritatis sunt.</p>
+                </div>
+              </div>
+        </div>
+      </div>  
+        
+    </div>
+
+
+    <!-- FOOTER -->
+
+    <div class="container">
+        <div class="row footer-section justify-content-evenly">
+            <div class="col-lg-2 col-md-3 col-10 footer-box">
+                <h3>About</h3>
+                <a>History</a>
+                <a>Out Team</a>
+                <a>Brand Guidelines</a>
+                <a>Terms & Condition</a>
+                <a>Privacy Policy</a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-10 footer-box">
+                <h3>Services</h3>
+                <a>How to order</a>
+                <a>Our Product</a>
+                <a>Order Status</a>
+                <a>Promo</a>
+                <a>Payment Method</a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-10 footer-box-1">
+                <h3>Title here</h3>
+                <a>Lorem ipsum dolor sit.</a>
+                <div>
+                    <form class="d-flex mb-2 mt-2 footer-search" role="search">
+                        <input
+                          class="form-control me-2 search-bar"
+                          type="search"
+                          placeholder="Search"
+                          aria-label="Search"
+                        />
+                        <button class="btn btn-outline-light search-btn" type="submit">
+                            <i class="bi bi-telegram footer-btn"></i>
+                        </button>
+                    </form>
+                </div>
+                <div class="footer-icons">
+                    <i class="bi bi-instagram"></i>
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-twitter"></i>
+                    <i class="bi bi-whatsapp"></i>
+                </div>
+            </div>
+          </div>
+    </div>
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
